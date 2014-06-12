@@ -40,7 +40,7 @@ $months = ['January',
 							foreach($months as $month)
 							{
 						?>
-						<li><a href="month.php?month=<?php echo $month; ?>"><?php echo $month; ?></a></li>
+						<li><a <?php if($month === $_GET['month']) { ?>class="active"<?php } ?> href="month.php?month=<?php echo $month; ?>"><?php echo $month; ?></a></li>
 						<?php
 							}
 						?>	
@@ -50,6 +50,13 @@ $months = ['January',
 			
 			<div id="container"> 
 				<?php
+					if(count($display_p) === 0)
+					{
+				?>
+					<div class="no_excerpt">OOopS! More Blogs Coming SOon!</div>
+				<?php
+					} else {
+
 					foreach($display_p as $excerpt)
 					{
 				?>
@@ -64,6 +71,7 @@ $months = ['January',
 				</div> 
 				<?php
 					}
+				}
 				?>
 
 			</div>

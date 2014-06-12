@@ -51,6 +51,7 @@ class Post extends Table
 	{
 		//get_mysql returns a new object of the php built-in mysqli class.
 		$m = $this->get_mysql();
+		
 		//in Date function, the first perameter is how u want the date formatted;
 		//second is the date that u want formatted,which is converted to a unix timestamp via strtotime
 		$select = 'SELECT * FROM '.$this->t_name .' WHERE MONTH(Date_Created) = '. date('n', strtotime($month));

@@ -82,3 +82,9 @@
 .excerpt:last-child {
 	margin-bottom: 0;
 }
+
+.no_excerpt{
+	text-align:center;
+	font-size:40px;
+	color:#000000;
+}
