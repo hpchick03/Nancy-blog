@@ -67,7 +67,11 @@ $months = ['January',
 						<div class="title"><em><strong><?php echo $excerpt['Title']; ?></strong></em></div>
 					</div>					
 					
-					<div class="text"><?php echo $excerpt['Body']; ?></div>
+					<div class="text">
+						<?php echo (strlen($excerpt['Body']) > 250) ? substr($excerpt['Body'],0,247).'...' : $excerpt['Body']; ?>
+					</div>
+
+					<div class="read_more"><a href="single.php?blog_id=<?php echo $excerpt['ID']; ?>">Read More</a></div>
 				</div> 
 				<?php
 					}

@@ -88,3 +88,16 @@
 	font-size:40px;
 	color:#000000;
 }
+
+.read_more{
+	text-align:right;
+}
+
+.read_more a{
+	color:#743B85;
+} 
+
+.read_more a:hover
+{
+	color:#000000;	
+}
