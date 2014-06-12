@@ -1,0 +1,319 @@
+#heading{ 
+         font-family: 'Arvo', serif; 
+		 font-size: 107px; 
+		 margin-bottom: 0px;
+		 margin-top: 0;
+} 
+
+.heading-colors{
+	   color:#dd93f2; /* for text-color */
+	   text-align: center;
+
+}
+#heading-space{
+       margin-top:0px;	
+}
+
+body{
+	margin:0;
+	background-color:#000000;
+}
+
+#header{
+ 
+} 
+
+#page{
+	width:90%;
+	margin:0 auto;
+    background-color:#000000;
+}
+
+#content{ 
+	position:relative;
+	padding-bottom:22px;
+}
+
+#chilly{ /*bubble-container for #chilly div which allows to move entire img divs*/
+	left:813px;
+	top:252px;
+}
+
+#chilly .bubble-main .hide img{
+	width:251px;
+	left:-28px;
+	top:0;
+} 
+
+#chilly .bubble-main .hide{
+	height:151px;
+	width:220px;
+}
+
+#chilly .bubble-main{
+	height:164px;
+	width:223px;
+	transform:rotate(51deg);
+	-ms-transform:rotate(51deg);
+	-webkit-transform:rotate(51deg);
+} 
+
+#chilly .bubble-main:before{
+	bottom:49px;
+	left:-53px;
+}
+
+#chilly .bubble-main:after{
+	bottom:48px;
+	left:-87px;
+}
+
+#pen { /* bubble-container for #pen div*/
+	left: 16px;	
+	top: 283px;
+}
+
+#pen .bubble-main .hide img{
+	width:157px;
+	left: 28px;
+	top:0;
+}
+
+#pen .bubble-main .hide{
+	width: 230px;
+	height: 170px;
+}
+#pen .bubble-main{
+	height: 170px;
+	width: 233px;
+} 
+
+#pen .bubble-main:before{
+	bottom:177px;
+	left:220px;
+}
+
+#pen .bubble-main:after{
+	bottom: 223px;
+	left: 260px;
+}
+
+#pen .bubble-iii{
+	bottom:111px;
+	left:157px;
+}
+
+#books{/* bubble-container for #books div*/ 
+	left:380px;
+	top:-76px;
+}
+
+#books .bubble-main .hide img {
+	width:90px; 
+	left:-1px;
+	top:0;
+} 
+
+#books .bubble-main .hide{
+	width:80px;
+	height:140px;
+	border-radius:0;
+}
+
+#books .bubble-main{
+	height:140px;
+	width:80px;
+	background-color:inherit;
+	border-radius:0;
+}
+
+#books .bubble-main:before{
+	bottom:-33px;
+	right:-33px;
+	width: 44px;
+	height: 42px;
+	left:auto;
+} 
+
+#books .bubble-main:after{
+	bottom:-45px;
+	right:-44px;
+	width: 29px;
+	height: 28px;
+	left:auto;
+} 
+
+#books .bubble-iii{
+	bottom:-25px;
+	right:-29px;
+}
+
+#shakespeare{/* bubble-container for #shakespeare Div */
+	right:473px;
+	top:-64px;
+}
+
+#shakespeare .bubble-main .hide img{
+	width: 325px;
+	top:0;
+	left:-124px;
+}
+
+
+#shakespeare .bubble-main .hide {
+	height:129px;
+	width:129px;
+}
+
+#shakespeare .bubble-main {
+	height:129px;
+	width:129px;
+}
+
+.bubble-main .bubble-iii{/* general classes w/properties that apply to each div that is designated with such class*/
+	border:5px solid #000000;
+	border-radius:100%;
+	width:64px;
+	height:61px;
+	position:absolute;
+	z-index:1;
+	background-color:#edf8f9;
+	opacity: 0.6;
+}
+
+.bubble-main .hide img {/*^^^*/
+	position:absolute;
+}
+
+.bubble-main .hide {/*^^^*/
+	overflow: hidden;
+	position: relative;
+	border-radius: 100%;
+}
+
+.bubble-container {/*^^^*/
+	position: absolute;
+}
+
+.bubble-container .bubble-main {/*^^^*/
+	position: absolute;
+	border: 5px solid #000000;
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	height:200px;
+	width:150px;
+}
+
+.bubble-container .bubble-main:before {/*^^^*/
+	content: '';
+	position: absolute;
+	width: 32px; height: 32px;
+	border: 5px solid #000000;
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	bottom: -11px;
+	left: -2px;
+	z-index: 2;
+	opacity:0.6;
+}
+
+.bubble-container .bubble-main:after {/*^^^*/
+	content: '';
+	position: absolute;
+	width: 16px; height: 16px;
+	border: 5px solid #000000;
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	bottom: -18px;
+	left: -10px;
+	z-index: 3;
+	opacity:0.6;
+}
+
+ 
+/*#pen img{
+	width:194px;
+	height:170px;
+}
+*/
+/*#pen{ 
+	position:absolute;
+	left: 46px;
+	top: 221px;
+	border: 2px solid #a8e2ed;
+	height: 170px;
+	border-radius: 18%;
+	overflow: hidden;
+	width:194px;
+}*/
+
+#pro-pic img{
+	width:400px;
+}
+
+#pro-pic{/* Div*/
+	width: 402px;
+	margin: 0 auto;
+	border: 9px dotted #dd93f2;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+ .p-text p {  
+ 	margin:0; 
+ 	color:#731C8B; 
+	font-size:16px;
+	font-family:Arial;
+	margin-bottom:18px;
+}
+
+.p-text p:last-child{
+	margin-bottom:0;
+} 
+
+#sidebar{
+	position:absolute; 
+	left:18px;
+	top:-62px;
+	font-size:16px; 
+	font-weight:bold;
+	background-color: #000000;
+	padding-right: 27px; 
+	border: 8px solid #dd93f2;
+}
+
+#sidebar p{
+	text-align:center;
+	font-size:19px;
+}
+
+#sidebar ul li a { /*for text-ink on sidebar*/
+	color:#dd93f2;
+	text-decoration:underline;
+	
+} 
+
+#sidebar ul li a:hover{
+	color:#ffffff;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	margin-top:0;
+	text-align:left;
+	padding:13px;
+}
+
+#container{
+	background-color: #a8e2ed; 
+	padding-top:82px;
+} 
+
+.p-text{ 
+       border:4px solid #000000;
+       background-color:#f2f2f2; 
+       border-radius:20px;
+       margin: 59px auto 0px;
+	   padding:19px;
+
+}
