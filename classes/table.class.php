@@ -68,6 +68,16 @@ class Post extends Table
     	}
     	return $rows; 
 	}
+
+	public function get_single_post($ID)
+	{
+		//this string will be translated into what we would input into mysql, telling mysql to do what the string says 
+		$select = 'select * from '.$this->t_name.' WHERE ID = '.$ID;
+		$m = $this->get_mysql();
+		$result = $m->query($select);
+		return $result->fetch_assoc();
+
+	}
 }
 
 // class mysqli_result
@@ -83,6 +93,7 @@ class Post extends Table
 // 	public function query($statement)
 // 	{
 // 		// ...
+//      returns a new object of the mysqli_result class
 // 		return new mysqli_result();
 // 	}
 // }
