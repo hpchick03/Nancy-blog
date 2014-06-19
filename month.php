@@ -53,7 +53,9 @@ $months = ['January',
 					if(count($display_p) === 0)
 					{
 				?>
-					<div class="no_excerpt">OOopS! More Blogs Coming SOon!</div>
+					<div class="no_excerpt">OOopS! More Blogs Coming SOon!
+						<br><a href="/">Go Home</a>
+					</div>
 				<?php
 					} else {
 

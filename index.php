@@ -12,7 +12,7 @@
 		   'November',
 		   'December'];
 ?>
-<!DOCTYPE html> 
+<!DOCTYPE html> <!--my home page-->
 
 <html> 
 	<head> 

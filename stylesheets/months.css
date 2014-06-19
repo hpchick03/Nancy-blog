@@ -89,6 +89,10 @@
 	color:#000000;
 }
 
+.no_excerpt a:hover{
+	color:#b20c0c;
+}
+
 .read_more{
 	text-align:right;
 }
